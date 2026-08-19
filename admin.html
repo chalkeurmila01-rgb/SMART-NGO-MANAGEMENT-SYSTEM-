@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Admin Panel - NGO Management System</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bg-gray-50">
+
+    <header class="bg-white shadow-sm">
+
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+
+            <div class="flex items-center gap-3">
+
+                <div class="logo-box">
+                    NGO
+                </div>
+
+                <div>
+                    <h1 class="font-bold text-gray-800">
+                        NGO Management System
+                    </h1>
+
+                    <p class="text-xs text-red-500 font-medium">
+                        ADMIN PANEL
+                    </p>
+                </div>
+
+            </div>
+
+
+            <button
+                id="logoutBtn"
+                class="bg-red-500 text-white px-4 py-2 rounded-lg hover:bg-red-600">
+                Logout
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <main class="max-w-7xl mx-auto px-6 py-8">
+
+        <div class="mb-8">
+
+            <h2 class="text-3xl font-bold text-gray-800">
+                Admin Dashboard
+            </h2>
+
+            <p class="text-gray-500 mt-2">
+                Manage NGO operations and system information.
+            </p>
+
+        </div>
+
+
+        <section class="grid sm:grid-cols-2 lg:grid-cols-5 gap-5 mb-8">
+
+            <div class="stat-card">
+                <p>Total Users</p>
+                <h3>0</h3>
+            </div>
+
+            <div class="stat-card">
+                <p>Volunteers</p>
+                <h3>0</h3>
+            </div>
+
+            <div class="stat-card">
+                <p>Donations</p>
+                <h3>0</h3>
+            </div>
+
+            <div class="stat-card">
+                <p>Beneficiaries</p>
+                <h3>0</h3>
+            </div>
+
+            <div class="stat-card">
+                <p>Activities</p>
+                <h3>0</h3>
+            </div>
+
+        </section>
+
+
+        <section class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+            <div class="dashboard-card">
+                <h3>User Management</h3>
+                <p>Create, view, update and delete NGO users.</p>
+                <button class="dashboard-btn">Manage Users</button>
+            </div>
+
+
+            <div class="dashboard-card">
+                <h3>Volunteer Management</h3>
+                <p>Manage all volunteer records.</p>
+                <button class="dashboard-btn">Manage Volunteers</button>
+            </div>
+
+
+            <div class="dashboard-card">
+                <h3>Donation Management</h3>
+                <p>Manage NGO donation records.</p>
+                <button class="dashboard-btn">Manage Donations</button>
+            </div>
+
+
+            <div class="dashboard-card">
+                <h3>Beneficiary Management</h3>
+                <p>Manage beneficiary information.</p>
+                <button class="dashboard-btn">Manage Beneficiaries</button>
+            </div>
+
+
+            <div class="dashboard-card">
+                <h3>Activity Management</h3>
+                <p>Manage NGO activities and events.</p>
+                <button class="dashboard-btn">Manage Activities</button>
+            </div>
+
+
+            <div class="dashboard-card">
+
+                <div class="flex items-center justify-between">
+                    <h3>AI NGO Assistant</h3>
+
+                    <span class="bg-blue-100 text-blue-700 px-2 py-1 rounded text-xs">
+                        AI
+                    </span>
+                </div>
+
+                <p>
+                    Analyze NGO information and get AI-powered recommendations.
+                </p>
+
+                <button class="dashboard-btn">
+                    Open AI Assistant
+                </button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+</body>
+</html>
