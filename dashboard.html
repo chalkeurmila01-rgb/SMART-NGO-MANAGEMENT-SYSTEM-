@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>User Dashboard - NGO Management System</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bg-gray-50">
+
+    <header class="bg-white shadow-sm">
+
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+
+            <div class="flex items-center gap-3">
+                <div class="logo-box">NGO</div>
+
+                <div>
+                    <h1 class="font-bold text-gray-800">
+                        NGO Management System
+                    </h1>
+
+                    <p class="text-xs text-gray-500">
+                        User Panel
+                    </p>
+                </div>
+            </div>
+
+
+            <button
+                id="logoutBtn"
+                class="bg-red-500 text-white px-4 py-2 rounded-lg hover:bg-red-600">
+                Logout
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <main class="max-w-7xl mx-auto px-6 py-8">
+
+        <div class="mb-8">
+            <h2 class="text-3xl font-bold text-gray-800">
+                Welcome, User
+            </h2>
+
+            <p class="text-gray-500 mt-2">
+                Manage your authorized NGO activities.
+            </p>
+        </div>
+
+
+        <section class="grid sm:grid-cols-2 lg:grid-cols-4 gap-5 mb-8">
+
+            <div class="stat-card">
+                <p>Volunteers</p>
+                <h3>0</h3>
+            </div>
+
+            <div class="stat-card">
+                <p>Donations</p>
+                <h3>0</h3>
+            </div>
+
+            <div class="stat-card">
+                <p>Beneficiaries</p>
+                <h3>0</h3>
+            </div>
+
+            <div class="stat-card">
+                <p>Activities</p>
+                <h3>0</h3>
+            </div>
+
+        </section>
+
+
+        <section class="grid md:grid-cols-2 gap-6">
+
+            <div class="dashboard-card">
+                <h3>Volunteer Management</h3>
+                <p>View and manage authorized volunteer records.</p>
+                <button class="dashboard-btn">Open Module</button>
+            </div>
+
+
+            <div class="dashboard-card">
+                <h3>Beneficiary Management</h3>
+                <p>View and manage authorized beneficiary records.</p>
+                <button class="dashboard-btn">Open Module</button>
+            </div>
+
+
+            <div class="dashboard-card">
+                <h3>NGO Activities</h3>
+                <p>Manage NGO activities and events.</p>
+                <button class="dashboard-btn">Open Module</button>
+            </div>
+
+
+            <div class="dashboard-card">
+
+                <div class="flex items-center justify-between">
+                    <h3>AI NGO Assistant</h3>
+                    <span class="bg-blue-100 text-blue-700 px-2 py-1 rounded text-xs">
+                        AI
+                    </span>
+                </div>
+
+                <p>
+                    Get intelligent assistance for NGO-related tasks.
+                </p>
+
+                <button class="dashboard-btn">
+                    Open AI Assistant
+                </button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+</body>
+</html>
